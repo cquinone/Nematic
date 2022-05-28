@@ -18,3 +18,7 @@ Process:
 - From a terminal, set your desired parameters in "nearN_ordered.go": target volume fraction, particle growth parameters, step limits
 - Build the .go file with go build
 - Run ./nearN_ordered.go [FILENAME FOM MATHEMATICA] [Y/N], where Y says to write out contact and positional data at the end
+
+
+
+![alt text](https://imgur.com/v3hV4RK)
