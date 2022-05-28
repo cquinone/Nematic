@@ -9,7 +9,7 @@ This next step (the .go file) reads the output from mathematica, and then slowly
 the volume fraction of the whole collection. The particles are treate as inifintely hard, so any overlaps are "undone" by
 translation and rotation, until a target final volume fraction is reached.
 
-The algorithm in the notebook is adapted from Henrik Schumacher's answer in https://mathematica.stackexchange.com/questions/159484/creating-random-configurations-of-spherocylinders-or-cylinders
+The algorithm in the notebook is adapted from Henrik Schumacher's answer in https://mathematica.stackexchange.com/questions/159484/creating-random-configurations-of-spherocylinders-or-cylinders. The important changes are in the choosing of rod vectors: random values are pulled from an estimated Gaussian at the given volume fraction, a la Odijk (https://doi.org/10.1021/ma00163a001).
 
 Process:
 
@@ -21,7 +21,7 @@ Process:
 
 
 
-**Before running MCM2:**
+**Before running MCM2 (on isotropic case):**
 ![alt text](https://i.imgur.com/v3hV4RK.png)
 
 **After running MCM2:**
