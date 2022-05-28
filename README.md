@@ -21,4 +21,8 @@ Process:
 
 
 
-![alt text](https://imgur.com/v3hV4RK)
+**Before running MCM2:**
+![alt text](https://i.imgur.com/v3hV4RK.png)
+
+**After running MCM2:**
+![alt text](https://i.imgur.com/vlQPfWR.png)
